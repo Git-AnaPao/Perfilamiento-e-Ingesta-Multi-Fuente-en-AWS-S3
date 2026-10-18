@@ -1,0 +1,32 @@
+# Credenciales de AWS (NUNCA subir)
+.aws/
+credentials
+credentials*
+*.pem
+*.key
+.env
+.env.*
+
+# Entornos virtuales
+venv/
+.venv/
+accessbucket/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datos locales
+*.csv
+*.json
+
+# Archivos locales por borrar
+_to_delete/
